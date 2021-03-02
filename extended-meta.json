@@ -1,7 +1,6 @@
 {
-    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/adapools.org/master/example-meta.json",
     "info": {
-        "url_png_icon_64x64": "https://target-pool.com/favicon.ico",
+        "url_png_icon_64x64": "https://target-pool.com/target-bullseye_64x64.ico",
         "url_png_logo": "https://target-pool.com/target-bullseye.png",
         "location": "Amsterdam, Netherlands",
         "social": {
@@ -13,15 +12,30 @@
             "discord_handle": "",
             "github_handle": ""
         },
-        "about": {
-            "me": "Target stake pool is a reliable Cardano staking service. That is managed by professional network Engineers, Unix Administrators and Network Security Administrators with 20 years of experience!
-Target stakepool aims to establish itself as the trusted partner for those looking to participate in the decentralized Cardano ecosystem and contribute to its further development.",
-            "server": "Datacenters with geo dispersed relays.",
+	"company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
         },
+        "about": {
+            "me": "Target stake pool is a reliable Cardano staking service. That is managed by professional network Engineers, Unix Administrators and Network Security Administrators with 20 years of experience! Target stakepool aims to establish itself as the trusted partner for those looking to participate in the decentralized Cardano ecosystem and contribute to its further development.",
+            "server": "We use state of the art data centers to keep the pools and relays running 24/7 with a focus on security and monitoring to prevent any downtime.",
+	    "company": ""
+        },
+	"rss": ""
     },       
     "my-pool-ids": {
-        "0": "317a33b89efc9c788439d10a1d5d448587b4d1a9ebd6d8e881b698b4",
-        },
+        "0": "317a33b89efc9c788439d10a1d5d448587b4d1a9ebd6d8e881b698b4"
+    },
+    "when-satured-then-recommend": {
+	"0": "317a33b89efc9c788439d10a1d5d448587b4d1a9ebd6d8e881b698b4"
+    },
+    "telegram-admin-handle": {
+        "0": ""
+    },    
     "adapools_ext": {
         "prometheus": {
             "0": {
